@@ -1,7 +1,14 @@
 package com.fastcampus.projectboard.domain;
 
+import lombok.Getter;
+import lombok.ToString;
+
+import javax.persistence.Table;
 import java.time.LocalDateTime;
 
+@Getter
+@ToString
+@Table(indexes = )
 public class Article {
 	private long id ;
 	private String title; //제목
