@@ -27,9 +27,6 @@ spring:
       hibernate:
         default_batch_fetch_size: 100
     database: mysql
-  h2:
-    console:
-      enabled: true
   sql.init.mode: always
 
 ---
