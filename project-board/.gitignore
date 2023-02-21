@@ -4,13 +4,14 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
-
+### Querydsl
+/src/main/generated
 ### STS ###
 .apt_generated
 .classpath
 .factorypath
 .project
-.settings
+.
 .springBeans
 .sts4-cache
 bin/
