@@ -12,7 +12,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 @DisplayName("View 컨트롤러 - 게시글")
-@WebMvcTest
+@WebMvcTest(ArticleController.class)//test 대상이 되는 컨트롤러를 지정할 수 있음
 class ArticleControllerTest {
 
     private final MockMvc mvc;
